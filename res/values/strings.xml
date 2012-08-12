@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MetroIn">Metro-In</string>
+    <string name="app_name">Metro-In</string>
+    <string name="From">From</string>
+    <string name="To">To</string>
+    <string name="search">Search</string>
+    <string name="sloc">Search by location</string>
+    <string name="sno">Search by Bus Number</string>
+    <string name="ftr">Frequently Travelled Routes</string>
+    <string name="ebn">Enter Bus Number</string>
+    <string name="tod">Enter \'To\' Destination</string>
+    <string name="frml">Enter \'From\' Location</string>
+    <string name="info">Welcome to Metro-In, your one stop application for all your bus needs…</string>
+    <string name="bno">Bus no</string>
+    <color name="grey1">#3B3B3B</color>
+    <color name="grey2">#747474</color>
+    <color name="orange1">#FFB55D</color>
+    <color name="orange2">#FFA600</color>
+    <color name="cream1">#DBC693</color>
+    <color name="cream2">#A49475</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+   </resources>

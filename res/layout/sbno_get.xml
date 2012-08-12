@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:background="@drawable/road">
+    	<TextView android:gravity="center" android:textSize="40dip" android:fadeScrollbars="true" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_x="74dip" android:layout_y="9dip" android:text="@string/MetroIn" android:textColor="#fff"></TextView>
+    	<TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:textSize="18sp" android:layout_width="wrap_content" android:textColor="#fff" android:text="@string/ebn" android:layout_x="89dip" android:layout_y="184dip"></TextView>
+    	<TextView android:layout_height="wrap_content" android:id="@+id/tv1" android:textSize="25sp" android:layout_width="300dip" android:textColor="#fff" android:enabled="true" android:text="" android:layout_x="10dip" android:layout_y="300dip"></TextView>
+    	<Button android:layout_height="45dip" android:background="@drawable/custom_button" android:layout_width="130dip" android:id="@+id/bnob" android:text="@string/search" android:textSize="17sp" android:layout_x="181dip" android:layout_y="224dip"></Button>
+    	<EditText android:id="@+id/bdta" android:layout_height="wrap_content" android:textColor="#000" android:layout_width="130dip" android:text="" android:layout_x="9dip" android:layout_y="224dip" android:hint="Bus No."></EditText>
+    	
+</AbsoluteLayout>
+

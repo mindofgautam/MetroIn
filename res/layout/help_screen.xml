@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1"
+ xmlns:android="http://schemas.android.com/apk/res/android" 
+ android:background="@drawable/black_img" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<AbsoluteLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <ImageView android:id="@+id/imageView1" android:src="@drawable/sloc" android:layout_height="wrap_content" android:layout_x="26dip" android:layout_y="84dip" android:layout_width="wrap_content"></ImageView>
+  <ImageView android:layout_width="wrap_content" android:id="@+id/imageView2" android:src="@drawable/sbno" android:layout_height="wrap_content" android:layout_x="26dip" android:layout_y="168dip"></ImageView>
+  <TextView android:id="@+id/textView2" android:text="This option allows you find the route taken by a bus by giving the Bus number." android:layout_height="wrap_content" android:layout_x="122dip" android:layout_y="82dip" android:layout_width="185dip" android:textSize="17dip"></TextView>
+  <TextView android:id="@+id/textView3" android:text="This option allows you find Bus Numbers travelling in the route inputted." android:layout_height="wrap_content" android:layout_x="122dip" android:layout_y="166dip" android:layout_width="185dip" android:textSize="17dip"></TextView>
+  <TextView android:id="@+id/textView4" android:text="This option allows you view the routes which you add to the frequently travelled routes from the menu in the results page." android:layout_height="wrap_content" android:layout_x="122dip" android:layout_y="250dip" android:layout_width="185dip" android:textSize="17dip"></TextView>
+  <ImageView android:layout_width="wrap_content" android:id="@+id/imageView3" android:src="@drawable/freq" android:layout_height="wrap_content" android:layout_x="26dip" android:layout_y="252dip"></ImageView>
+  <ImageView android:layout_width="wrap_content" android:id="@+id/imageView4" android:src="@drawable/showmap1" android:layout_height="wrap_content" android:layout_x="26dip" android:layout_y="361dip"></ImageView>
+  <TextView android:id="@+id/textView5" android:text="Clicking on the 'Show Map' option in the menu shows the route map for the Bus selected in Google maps.It requires a working data connection i.e. Wi-Fi or GPRS(2G/3G)." android:layout_height="wrap_content" android:layout_x="122dip" android:layout_y="359dip" android:layout_width="185dip" android:textSize="17dip"></TextView>
+  <TextView android:layout_width="wrap_content" android:textSize="30dip" android:id="@+id/textView1" android:textStyle="bold" android:textColor="#fff" android:text="@string/MetroIn" android:layout_height="wrap_content" android:layout_x="89dip" android:layout_y="3dip"></TextView>
+  <TextView android:layout_width="wrap_content" android:textSize="20dip" android:id="@+id/t1" android:textColor="#fff" android:text="Help" android:layout_height="wrap_content" android:layout_x="131dip" android:layout_y="44dip"></TextView>
+  
+</AbsoluteLayout>
+</ScrollView>

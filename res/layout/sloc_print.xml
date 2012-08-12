@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+android:id="@+id/scrollView1" 
+android:layout_height="fill_parent" 
+android:layout_width="wrap_content" 
+android:background="@drawable/black_img">
+<AbsoluteLayout android:layout_height="fill_parent" android:id="@+id/absoluteLayout1" android:layout_width="fill_parent">
+    <TextView android:layout_x="16dip" android:id="@+id/l1" android:layout_height="wrap_content" android:layout_y="130dip" android:textSize="20dip" android:text="" android:layout_width="wrap_content" android:textColor="#fff"></TextView>
+    <TextView android:layout_x="16dip" android:id="@+id/l2" android:layout_height="wrap_content" android:layout_y="170dip" android:textSize="20dip" android:text="" android:layout_width="wrap_content" android:textColor="#fff"></TextView>
+    <TextView android:layout_x="16dip" android:id="@+id/l3" android:layout_height="wrap_content" android:layout_y="210dip" android:textSize="20dip" android:text="" android:layout_width="wrap_content" android:textColor="#fff"></TextView>
+    <TextView android:layout_x="16dip" android:id="@+id/l4" android:layout_height="wrap_content" android:layout_y="250dip" android:textSize="20dip" android:text="" android:layout_width="wrap_content" android:textColor="#fff"></TextView>
+    <TextView android:layout_x="16dip" android:id="@+id/l5" android:layout_height="wrap_content" android:layout_y="290dip" android:textSize="20dip" android:text="" android:layout_width="wrap_content" android:textColor="#fff"></TextView>
+    <TextView android:layout_x="16dip" android:id="@+id/l6" android:layout_height="wrap_content" android:layout_y="330dip" android:textSize="20dip" android:text="" android:layout_width="wrap_content" android:textColor="#fff"></TextView>
+    <TextView android:layout_x="16dip" android:id="@+id/l7" android:layout_height="wrap_content" android:layout_y="370dip" android:textSize="20dip" android:text="" android:layout_width="300dip" android:textColor="#fff"></TextView>
+    <Spinner android:layout_height="wrap_content" android:id="@+id/spinner1" android:layout_width="310dip" android:layout_x="6dip" android:layout_y="73dip" ></Spinner>
+    <TextView android:id="@+id/textView3" android:fadeScrollbars="true" android:layout_height="wrap_content" android:textSize="40dip" android:typeface="serif" android:text="@string/MetroIn" android:gravity="center" android:layout_width="wrap_content" android:layout_x="74dip" android:layout_y="0dip" android:textColor="#fff"></TextView>
+    <TextView android:id="@+id/textView4" android:fadeScrollbars="true" android:layout_height="wrap_content" android:textSize="18sp" android:typeface="serif" android:text="Available Buses:" android:gravity="center" android:layout_width="wrap_content" android:layout_x="10dip" android:layout_y="50dip" android:textColor="#fff"></TextView>
+</AbsoluteLayout>
+</ScrollView>

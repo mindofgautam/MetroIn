@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1"
+ xmlns:android="http://schemas.android.com/apk/res/android" 
+ android:background="@drawable/black_img" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<AbsoluteLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+   <TextView android:layout_width="wrap_content" android:textSize="30dip" android:id="@+id/textView1" android:textStyle="bold" android:textColor="#fff" android:text="@string/MetroIn" android:layout_height="wrap_content" android:layout_x="89dip" android:layout_y="3dip"></TextView>
+  <TextView android:layout_width="wrap_content" android:textSize="20dip" android:id="@+id/t1" android:textColor="#fff" android:text="About Us" android:layout_height="wrap_content" android:layout_x="110dip" android:layout_y="44dip"></TextView>
+  <TextView android:layout_width="fill_parent" android:textSize="17dip" android:id="@+id/t1" android:text="Designed and Developed By:" android:layout_height="wrap_content" android:layout_x="12dip" android:layout_y="88dip"></TextView>
+  <TextView android:layout_width="300dip" android:textSize="17dip" android:id="@+id/t3" android:text="We are final year B.Tech CS students of Amrita School of Engg,Coimbatore         ('08-'12)" android:layout_height="wrap_content" android:layout_x="12dip" android:layout_y="154dip"></TextView>
+  <TextView android:layout_width="fill_parent" android:textSize="17dip" android:id="@+id/t2" android:text="Abishek Kasap and Ashok Ramkumar" android:layout_height="wrap_content" android:layout_x="12dip" android:layout_y="120dip"></TextView>
+  <TextView android:layout_width="wrap_content" android:textSize="17dip" android:id="@+id/t6" android:text="Ashok @ ashokrmkmr@gmail.com" android:layout_height="wrap_content" android:layout_x="20dip" android:layout_y="326dip"></TextView>
+  <TextView android:layout_width="wrap_content" android:textSize="17dip" android:id="@+id/t5" android:text="Abishek @ islanzi91@gmail.com" android:layout_height="wrap_content" android:layout_x="20dip" android:layout_y="304dip"></TextView>
+  <TextView android:layout_width="wrap_content" android:textSize="17dip" android:id="@+id/t4" android:text="Contact us with your comments and ideas" android:layout_height="wrap_content" android:layout_x="12dip" android:layout_y="272dip"></TextView>
+  
+</AbsoluteLayout>
+</ScrollView>

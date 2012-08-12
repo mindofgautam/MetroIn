@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView"
+ xmlns:android="http://schemas.android.com/apk/res/android" 
+ android:background="@drawable/bi1" 
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent">
+    <AbsoluteLayout android:id="@+id/absoluteLayout1" android:layout_width="fill_parent" android:layout_gravity="top" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_y="21dip" android:layout_x="82dip" android:textSize="40dip" android:id="@+id/textView1" android:textStyle="bold" android:textColor="#fff" android:text="@string/MetroIn" android:layout_height="wrap_content"></TextView>
+        <TextView android:fadeScrollbars="true" android:layout_width="300dip" android:layout_y="86dip" android:layout_x="10dip" android:textSize="25dip" android:id="@+id/textView2" android:textColor="#fff" android:text="@string/info" android:layout_height="wrap_content"></TextView>
+        <Button android:background="@drawable/custom_button" android:layout_width="150dip" android:layout_y="346dip" android:layout_x="9dip" android:textSize="17sp" android:text="Frequent Routes" android:id="@+id/ftr" android:layout_height="50dip"></Button>
+        <Button android:background="@drawable/custom_button" android:layout_width="150dip" android:layout_y="286dip" android:layout_x="9dip" android:textSize="17sp" android:text="Search Location" android:id="@+id/sloc" android:layout_height="50dip"></Button>
+        <Button android:background="@drawable/custom_button" android:layout_width="150dip" android:layout_y="225dip" android:layout_x="8dip" android:textSize="17sp" android:text="Search Bus No." android:id="@+id/sno" android:layout_height="50dip"></Button>
+        <ImageButton android:layout_width="40dip" android:src="@drawable/about_us" android:id="@+id/abtb" android:layout_height="40dip" android:layout_x="192dip" android:layout_y="437dip"></ImageButton>
+        <ImageButton android:layout_width="40dip" android:src="@drawable/help" android:id="@+id/helpb" android:layout_height="40dip" android:layout_x="261dip" android:layout_y="437dip"></ImageButton>
+    </AbsoluteLayout>
+</ScrollView>

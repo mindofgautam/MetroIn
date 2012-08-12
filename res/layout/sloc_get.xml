@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:background="@drawable/road">
+    	<TextView android:gravity="center" android:textSize="40dip" android:fadeScrollbars="true" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_x="74dip" android:layout_y="9dip" android:text="@string/MetroIn" android:textColor="#fff"></TextView>
+    	<TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:textColor="#fff" android:text="@string/tod" android:layout_x="5dip" android:layout_y="289dip"></TextView>
+    	<TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:textColor="#fff" android:text="@string/frml" android:layout_x="12dip" android:layout_y="214dip"></TextView>
+    	<AutoCompleteTextView android:ellipsize="start" android:text="" android:layout_width="130dip" android:textColor="#000" android:id="@+id/afrom" android:layout_x="170dip" android:layout_y="206dip" android:textSize="14sp" android:layout_height="wrap_content" android:hint="From Location"></AutoCompleteTextView>
+    	<AutoCompleteTextView android:text="" android:textColor="#000" android:id="@+id/ato" android:layout_x="180dip" android:layout_y="280dip" android:textSize="14sp" android:layout_height="wrap_content" android:hint="To Destination" android:layout_width="130dip"></AutoCompleteTextView>
+    	<Button android:layout_height="wrap_content" android:background="@drawable/custom_button" android:layout_width="130dip" android:id="@+id/locb" android:text="@string/search" android:textSize="17sp" android:layout_x="188dip" android:layout_y="348dip"></Button>
+    	
+    	
+ 
+</AbsoluteLayout>

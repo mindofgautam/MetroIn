@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1"
+ xmlns:android="http://schemas.android.com/apk/res/android" 
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent"
+ android:background="@drawable/black_img">
+<AbsoluteLayout android:layout_width="fill_parent" android:id="@+id/absoluteLayout1" android:layout_height="fill_parent">
+    <TextView android:gravity="center" android:layout_height="wrap_content" android:id="@+id/q33" android:textSize="40dip" android:layout_width="wrap_content" android:textColor="#fff" android:typeface="serif" android:fadeScrollbars="true" android:text="@string/MetroIn" android:layout_x="74dip" android:layout_y="12dip"></TextView>
+    <Button android:layout_height="60dip" android:id="@+id/pfl" android:layout_width="115dip" android:layout_x="10dp" android:layout_y="70dp"></Button>
+    <TextView android:text="" android:textColor="#fff" android:textSize="20dip" android:id="@+id/f4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="20dp" android:layout_y="147dp"></TextView>
+    <TextView android:text="" android:textColor="#fff" android:textSize="20dip" android:id="@+id/f5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="245dp" android:layout_y="147dp"></TextView>
+    <TextView android:textSize="20dip" android:id="@+id/f6" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#fff" android:layout_x="245dp" android:layout_y="184dp"></TextView>
+    <TextView android:textSize="20dip" android:id="@+id/f7" android:layout_height="wrap_content" android:layout_width="300dip" android:textColor="#fff" android:layout_x="21dp" android:layout_y="220dp"></TextView>
+    <Button android:id="@+id/pdn" android:layout_height="60dip" android:layout_width="105dip" android:layout_x="206dp" android:layout_y="70dp"></Button>
+    <Spinner android:layout_height="60dip" android:id="@+id/ftr1" android:layout_x="119dp" android:layout_y="70dp" android:layout_width="94dip"></Spinner>
+</AbsoluteLayout>
+</ScrollView>
